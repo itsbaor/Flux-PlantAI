@@ -1,0 +1,161 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "Plant AI",
+  "welcome": "Welcome,",
+
+  "home": "Home",
+  "myGarden": "My Garden",
+  "reminder": "Reminder",
+  "profile": "Profile",
+
+  "identifyYourPlant": "Identify Your\nPlant",
+  "scanToIdentify": "Scan to identify species and\nget care recommendations",
+  "scanNow": "Scan Now",
+  "scanAPlant": "Scan a Plant",
+
+  "yourTasksForToday": "Your tasks for today",
+  "noPlantsInGardenYet": "No plants in your garden yet",
+  "scanPlantToAdd": "Scan a plant to add it to your garden",
+
+  "careGuide": "Care guide",
+  "all": "All",
+  "watering": "Watering",
+  "light": "Light",
+  "maintenance": "Maintenance",
+  "health": "Health",
+
+  "myGardenTitle": "My Garden",
+  "startYourPlantCollection": "Start your plant collection",
+  "searchPlants": "Search plants...",
+  "indoor": "Indoor",
+  "outdoor": "Outdoor",
+  "plants": "{count} plants",
+  "@plants": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "yourGardenAwaits": "Your garden awaits",
+  "scanFirstPlant": "Scan your first plant to start building\nyour personal plant collection",
+
+  "addReminder": "Add reminder",
+  "plant": "Plant",
+  "selectPlant": "Select plant",
+  "remindMeAbout": "Remind me about",
+  "repeat": "Repeat",
+  "date": "Date",
+  "time": "Time",
+  "setReminder": "Set reminder",
+  "once": "Once",
+  "daily": "Daily",
+  "weekly": "Weekly",
+  "monthly": "Monthly",
+  "fertilizing": "Fertilizing",
+  "noRemindersForDay": "No reminders for this day",
+  "tapAddReminder": "Tap \"Add reminder\" to create one",
+  "tasks": "{count} tasks",
+  "@tasks": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "searchReminders": "Search Reminders",
+  "enterPlantName": "Enter plant name...",
+  "cancel": "Cancel",
+
+  "profileTitle": "Profile",
+  "upgradeToPro": "Upgrade to Pro",
+  "upgradeDescription": "Identify variety of plants and diagnose plants status",
+  "upgradeNow": "Upgrade now",
+  "manageGarden": "Manage garden",
+  "general": "General",
+  "security": "Security",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+  "reminderNotification": "Reminder Notification",
+  "language": "Language",
+  "aboutUs": "About us",
+
+  "selectLanguage": "Select Language",
+  "english": "English",
+  "vietnamese": "Vietnamese",
+  "hindi": "Hindi",
+  "portuguese": "Portuguese",
+  "spanish": "Spanish",
+  "indonesian": "Indonesian",
+  "korean": "Korean",
+
+  "plantIdentification": "Plant Identification",
+  "analyzingPlant": "Analyzing plant...",
+  "poweredByGemini": "Powered by Gemini 2.5 Flash",
+  "possibleMatches": "{count} Possible Matches",
+  "@possibleMatches": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "noPlantsIdentified": "No plants identified",
+  "tryClearerPhoto": "Try taking a clearer photo",
+  "confidence": "Confidence",
+  "bestMatch": "Best Match",
+  "addToGarden": "Add to Garden",
+  "plantAddedToGarden": "{name} added to your garden!",
+  "@plantAddedToGarden": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "view": "View",
+  "alreadyInGarden": "This plant is already in your garden!",
+  "fetchingCareInfo": "Fetching care info...",
+
+  "diagnosisReport": "Diagnosis Report",
+  "healthStatus": "Health Status",
+  "identifiedIssues": "Identified Issues",
+  "careSuggestions": "Care Suggestions",
+  "severity": "Severity",
+
+  "contactUs": "Contact Us",
+  "email": "Email",
+  "website": "Website",
+  "followUs": "Follow Us",
+  "version": "Version {version}",
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "allRightsReserved": "All rights reserved.",
+
+  "error": "Error",
+  "success": "Success",
+  "loading": "Loading...",
+  "retry": "Retry",
+  "save": "Save",
+  "delete": "Delete",
+  "edit": "Edit",
+  "share": "Share",
+  "close": "Close",
+  "confirm": "Confirm",
+  "yes": "Yes",
+  "no": "No",
+
+  "noPlantsFound": "No plants found",
+  "addedToFavorites": "Added to favorites!",
+
+  "proTips": "Pro Tips",
+  "quickTips": "Quick Tips",
+  "overview": "Overview",
+  "careInstructions": "Care Instructions"
+}

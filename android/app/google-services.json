@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "723817855478",
+    "project_id": "plant-identifer-c82f6",
+    "storage_bucket": "plant-identifer-c82f6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723817855478:android:b60e32ddf8570a09122fd7",
+        "android_client_info": {
+          "package_name": "plant.identification.flower.tree.leaf.identifier.global.flux"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGwrvUFf828d9sTiSpU-QZxiA2Y79lfqQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
