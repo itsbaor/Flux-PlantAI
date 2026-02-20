@@ -28,7 +28,7 @@ require File.expand_path(File.join('packages', 'flutter_tools', 'bin', 'podhelpe
 flutter_ios_podfile_setup
 
 target 'Runner' do
-  use_frameworks!
+  use_frameworks! :linkage => :static
 
   flutter_install_all_ios_pods File.dirname(File.realpath(__FILE__))
   target 'RunnerTests' do
@@ -50,6 +50,12 @@ post_install do |installer|
         'PERMISSION_PHOTOS=1',
         'PERMISSION_MICROPHONE=1',
       ]
+
+      # Add Flutter framework search path
+      config.build_settings['FRAMEWORK_SEARCH_PATHS'] ||= ['$(inherited)']
+      config.build_settings['FRAMEWORK_SEARCH_PATHS'] << '"${PODS_ROOT}/../Flutter/ephemeral/.symlinks/flutter/ios-simulator/ r.xcframework/ios-arm64_x86_64-simulator"'
+      config.build_settings['FRAMEWORK_SEARCH_PATHS'] << '"${PODS_ROOT}/../Flutter/ephemeral"'
+      config.build_settings['FRAMEWORK_SEARCH_PATHS'] << '"${PODS_CONFIGURATION_BUILD_DIR}/Flutter"'
     end
   end
 end

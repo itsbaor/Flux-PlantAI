@@ -66,7 +66,7 @@ class _MyAppState extends State<MyApp> {
     return LocaleProviderInherited(
       provider: _localeProvider,
       child: MaterialApp(
-        title: 'Plant AI',
+        title: 'Plantify AI',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(
